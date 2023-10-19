@@ -1,0 +1,12 @@
+{
+  "name": "gadgetpro",
+  "version": "2.0.0",
+  "description": "E-commerce Application project built with the MERN STACK ",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olayinka Ajibabi",
+  "license": "MIT"
+}
