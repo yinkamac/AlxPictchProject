@@ -21,7 +21,7 @@ const CartScreen = () => {
         dispatch(removeFromCart(id));
     };
     const checkoutHandler = () => {
-        navigate('/login?redirect=?shipping');
+        navigate('/login?redirect=/shipping');
     }
 
     return (
@@ -78,7 +78,7 @@ const CartScreen = () => {
                     </ListGroup.Item>
                     <ListGroup.Item>
                         <Button type='button' className='btn-block' disabled={cartItems.length === 0 }
-                        onClick={ checkoutHandler} >
+                        onClick={ checkoutHandler } >
                             Proceed To Checkout
                         </Button>
                         </ListGroup.Item>
