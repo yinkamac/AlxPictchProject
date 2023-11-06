@@ -43,7 +43,6 @@ const createProduct = asyncHandler(async (req, res) => {
 });
 
 
-export {getProducts, getProductById, createProduct };
 
 // @desc Update a product
 // @route PUT /api/products/:id
@@ -85,4 +84,4 @@ const deleteProduct = asyncHandler(async (req, res) => {
     }
 });
 
-export {getProducts, getProductById, createProduct, updateProduct };
+export {getProducts, getProductById, createProduct, updateProduct, deleteProduct};
