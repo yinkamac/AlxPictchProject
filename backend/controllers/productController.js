@@ -43,8 +43,11 @@ const createProduct = asyncHandler(async (req, res) => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export {getProducts, getProductById, createProduct };
 =======
+=======
+>>>>>>> a8213ca2c556a1f9e78a19b3ccaf7d03b0b36313
 // @desc Update a product
 // @route PUT /api/products/:id
 // @access Private/Admin
@@ -70,5 +73,9 @@ const updateProduct = asyncHandler (async(req, res) => {
     }
 });
 
+<<<<<<< HEAD
+export {getProducts, getProductById, createProduct, updateProduct };
+>>>>>>> a8213ca2c556a1f9e78a19b3ccaf7d03b0b36313
+=======
 export {getProducts, getProductById, createProduct, updateProduct };
 >>>>>>> a8213ca2c556a1f9e78a19b3ccaf7d03b0b36313
