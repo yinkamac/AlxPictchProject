@@ -42,6 +42,9 @@ const createProduct = asyncHandler(async (req, res) => {
     res.status(201).json(createdProduct);
 });
 
+
+export {getProducts, getProductById, createProduct };
+
 // @desc Update a product
 // @route PUT /api/products/:id
 // @access Private/Admin
@@ -82,4 +85,4 @@ const deleteProduct = asyncHandler(async (req, res) => {
     }
 });
 
-export {getProducts, getProductById, createProduct, updateProduct, deleteProduct };
+export {getProducts, getProductById, createProduct, updateProduct };
